@@ -3,7 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Smart Solutions — AI-Enabled Product Management for Gaming</title>
+<title>Smart Solutions | AI Product Intelligence Platform for Gaming</title>
+<meta name="description" content="Smart Solutions is an AI-first B2B SaaS startup building product intelligence software for gaming teams.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.smartsolutionshq.in/">
+<meta property="og:title" content="Smart Solutions | AI Product Intelligence for Gaming">
+<meta property="og:description" content="AI-first product intelligence software for gaming teams.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.smartsolutionshq.in">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Smart Solutions",
+  "url": "https://www.smartsolutionshq.in",
+  "email": "sanika.sawant@smartsolutionshq.in",
+  "description": "AI-first B2B SaaS startup building product intelligence software for gaming teams."
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
@@ -365,24 +382,24 @@
     border: 1px solid var(--border);
   }
 
-  /* SERVICES */
-  #services {
+  /* PRODUCT */
+  #product {
     background: var(--bg);
     max-width: none;
   }
 
-  .services-inner {
+  .product-inner {
     max-width: 1100px;
     margin: 0 auto;
   }
 
-  .services-grid {
+  .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
   }
 
-  .service-card {
+  .product-card {
     background: var(--card-bg);
     border-radius: 16px;
     padding: 32px 28px;
@@ -392,12 +409,12 @@
     overflow: hidden;
   }
 
-  .service-card:hover {
+  .product-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 40px rgba(0,0,0,0.09);
   }
 
-  .service-icon {
+  .product-icon {
     width: 48px;
     height: 48px;
     border-radius: 12px;
@@ -413,7 +430,7 @@
   .icon-blue { background: #eaf1ff; }
   .icon-purple { background: #f0eaff; }
 
-  .service-card h3 {
+  .product-card h3 {
     font-family: 'Syne', sans-serif;
     font-size: 19px;
     font-weight: 700;
@@ -422,20 +439,59 @@
     letter-spacing: -0.5px;
   }
 
-  .service-card p {
+  .product-card p {
     font-size: 14px;
     font-weight: 400;
     color: var(--ink2);
     line-height: 1.65;
   }
 
-  .service-card .card-tag {
+  .product-card .card-tag {
     display: inline-block;
     margin-top: 20px;
     font-size: 12px;
     font-weight: 500;
     color: var(--accent-dark);
     letter-spacing: 0.5px;
+  }
+
+
+
+  /* COMPANY PROFILE */
+  .company-profile {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  .company-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+  }
+
+  .company-card-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--ink3);
+    margin-bottom: 8px;
+  }
+
+  .company-card-value {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--ink);
   }
 
   /* CONTACT */
@@ -590,7 +646,7 @@
     .hero { padding: 100px 24px 60px; }
     .hero h1 { font-size: 52px; letter-spacing: -0.5px; }
     section { padding: 72px 24px; }
-    .about-grid, .credits-hero-row, .contact-inner { grid-template-columns: 1fr; gap: 32px; }
+    .about-grid, .contact-inner { grid-template-columns: 1fr; gap: 32px; }
     footer { padding: 32px 24px; flex-direction: column; text-align: center; }
   }
 
@@ -612,8 +668,8 @@
 <nav>
   <a href="#" class="nav-logo">Smart <span>Solutions</span></a>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
+    <li><a href="#product">Product</a></li>
+    <li><a href="#about">Company</a></li>
     <li><a href="#contact" class="nav-cta">Get in touch</a></li>
   </ul>
 </nav>
@@ -623,25 +679,25 @@
   <div class="hero-bg-grid"></div>
   <div class="hero-blob"></div>
   <div class="hero-content reveal">
-    <div class="hero-badge">AI-Enabled Gaming Product Management Service · India</div>
-    <h1>Build<br>Smarter<br><em>Games.</em></h1>
-    <p class="hero-sub">Full-stack product management, AI strategy, and analytics B2B SaaS for gaming companies ready to scale.</p>
+    <div class="hero-badge">AI-first B2B SaaS for Gaming · India</div>
+    <h1>AI Product<br>Intelligence<br><em>for Gaming.</em></h1>
+    <p class="hero-sub">Smart Solutions is building an AI-native product intelligence platform that helps gaming teams turn player behavior, product data, and market signals into faster product decisions.</p>
     <div class="hero-actions">
-      <a href="#services" class="btn-primary">Explore services →</a>
-      <a href="#contact" class="btn-secondary">Talk to us</a>
+      <a href="#product" class="btn-primary">Explore the product →</a>
+      <a href="#about" class="btn-secondary">About Smart Solutions</a>
     </div>
     <div class="hero-stats">
       <div class="stat-item">
-        <span class="stat-num">AI+</span>
-        <div class="stat-label">Strategy-first approach</div>
+        <span class="stat-num">B2B</span>
+        <div class="stat-label">SaaS business model</div>
       </div>
       <div class="stat-item">
-        <span class="stat-num">4</span>
-        <div class="stat-label">Core service lines</div>
+        <span class="stat-num">AI</span>
+        <div class="stat-label">Core product technology</div>
       </div>
       <div class="stat-item">
-        <span class="stat-num">∞</span>
-        <div class="stat-label">Potential unlocked</div>
+        <span class="stat-num">Gaming</span>
+        <div class="stat-label">Focused market</div>
       </div>
     </div>
   </div>
@@ -653,68 +709,104 @@
     <div class="about-visual reveal">
       <div class="about-visual-tag">Who we are</div>
       <div class="about-visual-big">Gaming<br><span>× AI</span></div>
-      <div class="about-visual-sub">Where product intelligence meets play</div>
+      <div class="about-visual-sub">Product intelligence software for gaming teams</div>
     </div>
     <div class="reveal">
       <div class="section-label">About Smart Solutions</div>
-      <h2 class="section-title">Built for gaming. Powered by AI.</h2>
+      <h2 class="section-title">A product company built for gaming decisions.</h2>
       <p class="section-body">
-        Smart Solutions helps gaming companies build, validate, and scale products through AI-driven product management, advanced analytics, strategic forecasting, and technology integration.
+        Smart Solutions is an early-stage technology startup building a scalable software platform for gaming product teams. The product brings together AI-assisted analysis, player analytics, decision support, and data workflows to help teams understand what is happening in their products and decide what to build next.
         <br><br>
-        We sit at the intersection of product thinking and emerging tech — helping studios and publishers turn player data into decisions that matter.
+        We are developing Smart Solutions as a repeatable B2B SaaS product for gaming studios and publishers, with AI embedded into the core product experience.
       </p>
       <div class="pill-list">
-        <span class="pill">AI Product Strategy</span>
-        <span class="pill">Gaming Analytics</span>
-        <span class="pill">Blockchain</span>
-        <span class="pill">IoT Advisory</span>
-        <span class="pill">Systems Design</span>
-        <span class="pill">Retention Optimization</span>
+        <span class="pill">AI Product Intelligence</span>
+        <span class="pill">Player Analytics</span>
+        <span class="pill">Decision Support</span>
+        <span class="pill">Product Forecasting</span>
+        <span class="pill">Data Workflows</span>
+        <span class="pill">Gaming SaaS</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICES -->
-<section id="services">
-  <div class="services-inner">
+<!-- PRODUCT -->
+<section id="product">
+  <div class="product-inner">
     <div class="reveal">
-      <div class="section-label">What We Do</div>
-      <h2 class="section-title">Four pillars of expertise.</h2>
-      <p class="section-body">From roadmap to retention — we cover the full product lifecycle for gaming companies.</p>
+      <div class="section-label">The Product</div>
+      <h2 class="section-title">One platform for better product decisions.</h2>
+      <p class="section-body">Smart Solutions is being built around four connected product capabilities for gaming teams, from understanding player behavior to deciding what to build next.</p>
     </div>
-    <div class="services-grid">
-      <div class="service-card reveal">
-        <div class="service-icon icon-green">
+    <div class="product-grid">
+      <div class="product-card reveal">
+        <div class="product-icon icon-green">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="7" r="4" stroke="#00c96a" stroke-width="1.8"/><path d="M3 19c0-4 3.6-7 8-7s8 3 8 7" stroke="#00c96a" stroke-width="1.8" stroke-linecap="round"/><path d="M15 4l2 2-2 2" stroke="#00c96a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3>AI Product Strategy</h3>
-        <p>Data-driven product planning, roadmap development, and hypothesis-led feature design for gaming studios at any stage.</p>
-        <span class="card-tag">Strategy & Roadmap →</span>
+        <h3>AI Product Intelligence</h3>
+        <p>AI-assisted synthesis of product signals, player behavior, and product context to surface insights and support roadmap decisions.</p>
+        <span class="card-tag">Core product capability →</span>
       </div>
-      <div class="service-card reveal">
-        <div class="service-icon icon-orange">
+      <div class="product-card reveal">
+        <div class="product-icon icon-orange">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="12" width="4" height="8" rx="1" fill="#ff6b35"/><rect x="9" y="7" width="4" height="13" rx="1" fill="#ff6b35"/><rect x="16" y="3" width="4" height="17" rx="1" fill="#ff6b35"/></svg>
         </div>
-        <h3>Gaming Analytics</h3>
-        <p>Deep player insights, retention analysis, cohort modelling, and growth optimization using real-time behavioral data.</p>
-        <span class="card-tag">Data & Insights →</span>
+        <h3>Player Analytics</h3>
+        <p>Analytics workflows designed to help teams explore retention, cohorts, engagement patterns, and product performance in one place.</p>
+        <span class="card-tag">Analytics capability →</span>
       </div>
-      <div class="service-card reveal">
-        <div class="service-icon icon-blue">
+      <div class="product-card reveal">
+        <div class="product-icon icon-blue">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="11,2 14,9 21,9 15.5,14 17.5,21 11,17 4.5,21 6.5,14 1,9 8,9" stroke="#2563eb" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
         </div>
-        <h3>AI Integration</h3>
-        <p>Implementing intelligent systems, recommendation engines, and automation into gaming products and internal workflows.</p>
-        <span class="card-tag">Tech Integration →</span>
+        <h3>Decision Support</h3>
+        <p>AI-assisted workflows for comparing hypotheses, prioritizing opportunities, and turning fragmented product evidence into clearer next actions.</p>
+        <span class="card-tag">AI capability →</span>
       </div>
-      <div class="service-card reveal">
-        <div class="service-icon icon-purple">
+      <div class="product-card reveal">
+        <div class="product-icon icon-purple">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4" cy="11" r="2.5" stroke="#7c3aed" stroke-width="1.6"/><circle cx="18" cy="5" r="2.5" stroke="#7c3aed" stroke-width="1.6"/><circle cx="18" cy="17" r="2.5" stroke="#7c3aed" stroke-width="1.6"/><line x1="6.2" y1="9.8" x2="15.8" y2="6.2" stroke="#7c3aed" stroke-width="1.4"/><line x1="6.2" y1="12.2" x2="15.8" y2="15.8" stroke="#7c3aed" stroke-width="1.4"/></svg>
         </div>
-        <h3>AI-Powered Technology Advisory</h3>
-        <p>AI-enabled guidance on blockchain, IoT, systems architecture, and emerging technology — aligned to your product and business goals.</p>
-        <span class="card-tag">Advisory →</span>
+        <h3>Data & AI Integrations</h3>
+        <p>Product architecture designed to connect data sources and AI models so insights can become part of repeatable gaming product workflows.</p>
+        <span class="card-tag">Platform capability →</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- COMPANY PROFILE -->
+<section id="company-profile">
+  <div class="company-profile reveal">
+    <div class="section-label">Company Profile</div>
+    <h2 class="section-title">Built as a scalable technology product.</h2>
+    <p class="section-body">A concise view of Smart Solutions for partners, customers, accelerators, and technology platforms.</p>
+    <div class="company-grid">
+      <div class="company-card">
+        <div class="company-card-label">Company</div>
+        <div class="company-card-value">Smart Solutions</div>
+      </div>
+      <div class="company-card">
+        <div class="company-card-label">Business model</div>
+        <div class="company-card-value">B2B SaaS</div>
+      </div>
+      <div class="company-card">
+        <div class="company-card-label">Product focus</div>
+        <div class="company-card-value">AI Product Intelligence</div>
+      </div>
+      <div class="company-card">
+        <div class="company-card-label">Industry</div>
+        <div class="company-card-value">Gaming</div>
+      </div>
+      <div class="company-card">
+        <div class="company-card-label">Company type</div>
+        <div class="company-card-value">Technology Startup</div>
+      </div>
+      <div class="company-card">
+        <div class="company-card-label">Location</div>
+        <div class="company-card-value">India</div>
       </div>
     </div>
   </div>
@@ -726,8 +818,8 @@
   <div class="contact-inner">
     <div>
       <div class="section-label reveal">Get In Touch</div>
-      <h2 class="section-title reveal">Let's build something great.</h2>
-      <p class="section-body reveal">Whether you're launching a new gaming product or scaling an existing one, we'd love to hear about your challenge.</p>
+      <h2 class="section-title reveal">Talk to the team.</h2>
+      <p class="section-body reveal">For product conversations, partnerships, accelerator verification, or general enquiries, contact Smart Solutions directly on our company domain.</p>
       <div class="contact-links reveal">
         <a href="mailto:sanika.sawant@smartsolutionshq.in" class="contact-link-item">
           <div class="contact-link-icon">
@@ -751,19 +843,22 @@
     </div>
     <div class="contact-form-side reveal">
       <h3>Send a message</h3>
+      <form id="contactForm">
       <div class="form-group">
         <label>Your name</label>
-        <input type="text" placeholder="Jane Doe">
+        <input id="contactName" type="text" placeholder="Jane Doe" required>
       </div>
       <div class="form-group">
         <label>Email address</label>
-        <input type="email" placeholder="jane@company.com">
+        <input id="contactEmail" type="email" placeholder="jane@company.com" required>
       </div>
       <div class="form-group">
         <label>Message</label>
-        <textarea rows="4" placeholder="Tell us about your product or challenge..."></textarea>
+        <textarea id="contactMessage" rows="4" placeholder="Tell us what you would like to discuss..." required></textarea>
       </div>
-      <button class="form-submit">Send message →</button>
+      <button class="form-submit" type="submit">Send message →</button>
+      </form>
+      <p style="font-size:12px;color:var(--ink3);margin-top:12px;line-height:1.5;">This opens your email app and sends to our company-domain address.</p>
     </div>
   </div>
 </section>
@@ -787,6 +882,17 @@
     });
   }, { threshold: 0.12 });
   reveals.forEach(r => io.observe(r));
+
+  const contactForm = document.getElementById('contactForm');
+  contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const name = document.getElementById('contactName').value.trim();
+    const email = document.getElementById('contactEmail').value.trim();
+    const message = document.getElementById('contactMessage').value.trim();
+    const subject = encodeURIComponent('Smart Solutions website enquiry from ' + name);
+    const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+    window.location.href = 'mailto:sanika.sawant@smartsolutionshq.in?subject=' + subject + '&body=' + body;
+  });
 </script>
 
 </body>
